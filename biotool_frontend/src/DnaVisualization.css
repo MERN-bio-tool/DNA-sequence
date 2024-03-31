@@ -1,0 +1,29 @@
+.dna-visualization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dna-sequence {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .base {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    font-size: 14px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .A { background-color: green; }
+  .T { background-color: red; }
+  .C { background-color: blue; }
+  .G { background-color: yellow; color: #000; /* Better contrast for yellow */ }
+  

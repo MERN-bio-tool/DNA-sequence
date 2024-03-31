@@ -1,0 +1,54 @@
+.SequenceAnalysis {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .SequenceAnalysis h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .SequenceAnalysis form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .SequenceAnalysis label {
+    font-weight: bold;
+  }
+  
+  .SequenceAnalysis input[type="text"],
+  .SequenceAnalysis select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .SequenceAnalysis button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SequenceAnalysis button:hover {
+    background-color: #0056b3;
+  }
+  
+  .SequenceAnalysis .analysisResult {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+  }
+  

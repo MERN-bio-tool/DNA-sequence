@@ -1,0 +1,94 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Input Styles */
+input[type="text"] {
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 20px 0;
+}
+
+/* Error Message Styles */
+.error {
+  color: #ff0000;
+}
+
+/* Tutorial Section Styles */
+.tutorial {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tutorial h2, .tutorial h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.tutorial p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Additional Enhancement */
+.tutorial ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.tutorial li {
+  margin-bottom: 10px;
+}
+
